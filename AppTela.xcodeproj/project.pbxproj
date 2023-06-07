@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E355302A23CA54001F8FEC /* AppTelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3552F2A23CA54001F8FEC /* AppTelaApp.swift */; };
+		25E355322A23CA54001F8FEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355312A23CA54001F8FEC /* ContentView.swift */; };
+		25E355342A23CA55001F8FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E355332A23CA55001F8FEC /* Assets.xcassets */; };
+		25E355372A23CA55001F8FEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E355362A23CA55001F8FEC /* Preview Assets.xcassets */; };
+		25E355392A23CA55001F8FEC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355382A23CA55001F8FEC /* Persistence.swift */; };
+		25E3553C2A23CA55001F8FEC /* AppTela.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25E3553A2A23CA55001F8FEC /* AppTela.xcdatamodeld */; };
+		25E355432A23CDDE001F8FEC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355422A23CDDE001F8FEC /* HomeView.swift */; };
+		25E355472A23CE93001F8FEC /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355462A23CE93001F8FEC /* CentralViewController.swift */; };
+		25E355492A23CEC8001F8FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355482A23CEC8001F8FEC /* AppDelegate.swift */; };
+		25E3554B2A23CF23001F8FEC /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3554A2A23CF23001F8FEC /* PeripheralViewController.swift */; };
+		25E3554D2A23CF3E001F8FEC /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3554C2A23CF3E001F8FEC /* TransferService.swift */; };
+		25E3554F2A23CF5E001F8FEC /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3554E2A23CF5E001F8FEC /* SplashScreenView.swift */; };
+		25E355512A23D076001F8FEC /* CreateFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355502A23D076001F8FEC /* CreateFolderView.swift */; };
+		25E355532A23D093001F8FEC /* FolderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355522A23D093001F8FEC /* FolderDetailView.swift */; };
+		25E355552A23D0AE001F8FEC /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355542A23D0AE001F8FEC /* AddView.swift */; };
+		25E355572A23D108001F8FEC /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355562A23D108001F8FEC /* SelectionView.swift */; };
+		25E355592A23D120001F8FEC /* DefinitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E355582A23D120001F8FEC /* DefinitionView.swift */; };
+		25E3555B2A23D137001F8FEC /* EditFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3555A2A23D137001F8FEC /* EditFolderView.swift */; };
+		25E3555D2A23D155001F8FEC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3555C2A23D155001F8FEC /* LoginView.swift */; };
+		25E3555F2A23DA2C001F8FEC /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3555E2A23DA2C001F8FEC /* PhotoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25E3552C2A23CA54001F8FEC /* AppTela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E3552F2A23CA54001F8FEC /* AppTelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTelaApp.swift; sourceTree = "<group>"; };
+		25E355312A23CA54001F8FEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25E355332A23CA55001F8FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25E355362A23CA55001F8FEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25E355382A23CA55001F8FEC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		25E3553B2A23CA55001F8FEC /* AppTela.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTela.xcdatamodel; sourceTree = "<group>"; };
+		25E355422A23CDDE001F8FEC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		25E355462A23CE93001F8FEC /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
+		25E355482A23CEC8001F8FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25E3554A2A23CF23001F8FEC /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		25E3554C2A23CF3E001F8FEC /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		25E3554E2A23CF5E001F8FEC /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		25E355502A23D076001F8FEC /* CreateFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderView.swift; sourceTree = "<group>"; };
+		25E355522A23D093001F8FEC /* FolderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailView.swift; sourceTree = "<group>"; };
+		25E355542A23D0AE001F8FEC /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		25E355562A23D108001F8FEC /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		25E355582A23D120001F8FEC /* DefinitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionView.swift; sourceTree = "<group>"; };
+		25E3555A2A23D137001F8FEC /* EditFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFolderView.swift; sourceTree = "<group>"; };
+		25E3555C2A23D155001F8FEC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		25E3555E2A23DA2C001F8FEC /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E355292A23CA54001F8FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E355232A23CA54001F8FEC = {
+			isa = PBXGroup;
+			children = (
+				25E3552E2A23CA54001F8FEC /* AppTela */,
+				25E3552D2A23CA54001F8FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E3552D2A23CA54001F8FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E3552C2A23CA54001F8FEC /* AppTela.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E3552E2A23CA54001F8FEC /* AppTela */ = {
+			isa = PBXGroup;
+			children = (
+				25E3552F2A23CA54001F8FEC /* AppTelaApp.swift */,
+				25E355462A23CE93001F8FEC /* CentralViewController.swift */,
+				25E355482A23CEC8001F8FEC /* AppDelegate.swift */,
+				25E3554A2A23CF23001F8FEC /* PeripheralViewController.swift */,
+				25E3554C2A23CF3E001F8FEC /* TransferService.swift */,
+				25E3554E2A23CF5E001F8FEC /* SplashScreenView.swift */,
+				25E355312A23CA54001F8FEC /* ContentView.swift */,
+				25E355422A23CDDE001F8FEC /* HomeView.swift */,
+				25E355502A23D076001F8FEC /* CreateFolderView.swift */,
+				25E355522A23D093001F8FEC /* FolderDetailView.swift */,
+				25E355542A23D0AE001F8FEC /* AddView.swift */,
+				25E3555E2A23DA2C001F8FEC /* PhotoView.swift */,
+				25E355562A23D108001F8FEC /* SelectionView.swift */,
+				25E355332A23CA55001F8FEC /* Assets.xcassets */,
+				25E355382A23CA55001F8FEC /* Persistence.swift */,
+				25E3553A2A23CA55001F8FEC /* AppTela.xcdatamodeld */,
+				25E355352A23CA55001F8FEC /* Preview Content */,
+				25E355582A23D120001F8FEC /* DefinitionView.swift */,
+				25E3555A2A23D137001F8FEC /* EditFolderView.swift */,
+				25E3555C2A23D155001F8FEC /* LoginView.swift */,
+			);
+			path = AppTela;
+			sourceTree = "<group>";
+		};
+		25E355352A23CA55001F8FEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25E355362A23CA55001F8FEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E3552B2A23CA54001F8FEC /* AppTela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E3553F2A23CA55001F8FEC /* Build configuration list for PBXNativeTarget "AppTela" */;
+			buildPhases = (
+				25E355282A23CA54001F8FEC /* Sources */,
+				25E355292A23CA54001F8FEC /* Frameworks */,
+				25E3552A2A23CA54001F8FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTela;
+			productName = AppTela;
+			productReference = 25E3552C2A23CA54001F8FEC /* AppTela.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E355242A23CA54001F8FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25E3552B2A23CA54001F8FEC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 25E355272A23CA54001F8FEC /* Build configuration list for PBXProject "AppTela" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E355232A23CA54001F8FEC;
+			productRefGroup = 25E3552D2A23CA54001F8FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E3552B2A23CA54001F8FEC /* AppTela */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E3552A2A23CA54001F8FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E355372A23CA55001F8FEC /* Preview Assets.xcassets in Resources */,
+				25E355342A23CA55001F8FEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E355282A23CA54001F8FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E355552A23D0AE001F8FEC /* AddView.swift in Sources */,
+				25E355492A23CEC8001F8FEC /* AppDelegate.swift in Sources */,
+				25E355392A23CA55001F8FEC /* Persistence.swift in Sources */,
+				25E3555F2A23DA2C001F8FEC /* PhotoView.swift in Sources */,
+				25E355322A23CA54001F8FEC /* ContentView.swift in Sources */,
+				25E355472A23CE93001F8FEC /* CentralViewController.swift in Sources */,
+				25E355572A23D108001F8FEC /* SelectionView.swift in Sources */,
+				25E355592A23D120001F8FEC /* DefinitionView.swift in Sources */,
+				25E3554B2A23CF23001F8FEC /* PeripheralViewController.swift in Sources */,
+				25E355302A23CA54001F8FEC /* AppTelaApp.swift in Sources */,
+				25E3554D2A23CF3E001F8FEC /* TransferService.swift in Sources */,
+				25E3555D2A23D155001F8FEC /* LoginView.swift in Sources */,
+				25E355532A23D093001F8FEC /* FolderDetailView.swift in Sources */,
+				25E3554F2A23CF5E001F8FEC /* SplashScreenView.swift in Sources */,
+				25E3555B2A23D137001F8FEC /* EditFolderView.swift in Sources */,
+				25E355432A23CDDE001F8FEC /* HomeView.swift in Sources */,
+				25E355512A23D076001F8FEC /* CreateFolderView.swift in Sources */,
+				25E3553C2A23CA55001F8FEC /* AppTela.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25E3553D2A23CA55001F8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25E3553E2A23CA55001F8FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E355402A23CA55001F8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppTela/Preview Content\"";
+				DEVELOPMENT_TEAM = 74CH427XG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permita o acesso à câmera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luan.app.TesteGio.AppTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25E355412A23CA55001F8FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppTela/Preview Content\"";
+				DEVELOPMENT_TEAM = 74CH427XG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permita o acesso à câmera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luan.app.TesteGio.AppTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E355272A23CA54001F8FEC /* Build configuration list for PBXProject "AppTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E3553D2A23CA55001F8FEC /* Debug */,
+				25E3553E2A23CA55001F8FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E3553F2A23CA55001F8FEC /* Build configuration list for PBXNativeTarget "AppTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E355402A23CA55001F8FEC /* Debug */,
+				25E355412A23CA55001F8FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25E3553A2A23CA55001F8FEC /* AppTela.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25E3553B2A23CA55001F8FEC /* AppTela.xcdatamodel */,
+			);
+			currentVersion = 25E3553B2A23CA55001F8FEC /* AppTela.xcdatamodel */;
+			path = AppTela.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25E355242A23CA54001F8FEC /* Project object */;
+}
